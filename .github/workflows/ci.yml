@@ -2,9 +2,11 @@ name: CI DEMO
 
 on:
     push:
-        - main
+        branches:
+            - main
     pull_request:
-        - main
+        branches:
+            - main
 
 # runs-on: ubuntu-latest
 jobs:
