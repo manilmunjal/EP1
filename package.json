@@ -1,14 +1,17 @@
 {
-  "name": "simple-node-app",
+  "name": "my-node-app",
   "version": "1.0.0",
-  "description": "A simple Node.js app",
-  "main": "app.js",
+  "description": "A simple Node.js application demonstrating Express.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js",
+    "build": "echo 'Build step (placeholder, no build required for this basic app)'",  // Placeholder, adjust if needed
+    "test": "echo 'No tests defined yet'"  // Add placeholder for future tests
   },
-  "author": "Your Name",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "http": "Latest"
+    "express": "^4.18.3"
   }
 }
