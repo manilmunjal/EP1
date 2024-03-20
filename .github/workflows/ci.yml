@@ -11,10 +11,11 @@ on:
 # runs-on: ubuntu-latest
 jobs:
     hello:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - name: hello-world
-            - run: echo "hello world" 
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v2
+        - name: Print hello world
+          run: echo "hello world"
 
 
